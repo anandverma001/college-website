@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    min-height: 100vh;
+}
+.nav1{
+    display: flex;
+    background-color: #383838;
+    color:#fcfcfc ;
+    height: 70px;
+    overflow: hidden;
+}
+.nav-img{
+    padding: 5px;
+    padding-right: 5px;
+    background-color: #474747;
+    width: 215px;
+}
+.nav-heading{
+    padding: 15px;
+    font-size: 2rem;
+    font-weight:800;
+    font-family: sans-serif;
+}
+.nav2{
+    height: 25px;
+    padding: 5px;
+    font-weight: 500;
+    padding-left: 15px;
+    overflow: hidden;
+}
+.container{
+    background-image: url(wel.png);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    height: 540px;
+    display: flex;
+    justify-content: end;
+}
+.login{
+    background-color: #07070790;
+    height: 330px;
+    width: 340px;
+    padding: 15px;
+    margin-right: 100px;
+    color: #fcfcfc;
+    border-radius: 5px;
+    margin-top:50px;
+
+}
+@media(max-width:700px){
+    .login{
+        margin-top: 100px;
+        margin-right: 150px;
+    }
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+.forget{
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.forget:hover{
+    text-decoration: underline;
+}
+.login h3{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.login a{
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    margin-left: 60px;
+}
+.applicant:hover{
+    color: #2d72bd;
+}
+
+#mail, #pass , #button{
+    width: 95%;
+    height: 35px;
+    border-radius: 5px;
+    border:none;
+    color: #474747;
+    padding: 10px;
+    outline: none;
+}
+#mail:focus, #pass:focus{
+    outline: 2px solid #007bff67;
+    box-shadow: 1px 1px 10px;
+}
+#button{
+    color: #fcfcfc;
+    font-weight: 500;
+    background-color: #007bff;
+    border: 2px solid rgb(0, 123, 255);
+    cursor: pointer;
+
+}
+.white-foot{
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+    position: relative;
+    color: rgb(38, 38, 38);
+    
+}
+.white-foot a{
+    text-decoration: none;
+    color: #164270;
+    font-weight: 700;
+    bottom: 500px;
+}
+.transparent-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    background-color: #38383899;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 20px;
+    font-size: 14px;
+} 
+.transparent-footer a{
+    color: white;
+    text-decoration: none;
+
+}
+.transparent-footer a:hover{
+    color:#1564b9;
+    text-decoration: none;
+}
+
+.extra img{
+    width: 20px;
+}
